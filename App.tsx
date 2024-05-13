@@ -3,11 +3,13 @@ import { View,Text } from "react-native";
 import React from "react";
 import SplashScreen from "./src/screens/splash.screen";
 import PaymentSuccessScreen from "./src/screens/payment.successfull";
+import Address from './src/screens/address';
 const App = ()=>{
     return(
         <View>
             {/* <SplashScreen/> */}
-            <PaymentSuccessScreen/>
+            {/* <PaymentSuccessScreen/> */}
+            <Address/>
         </View>
     )
 }
