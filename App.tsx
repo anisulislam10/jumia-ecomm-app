@@ -4,12 +4,14 @@ import React from "react";
 import SplashScreen from "./src/screens/splash.screen";
 import PaymentSuccessScreen from "./src/screens/payment.successfull";
 import Address from './src/screens/address';
+import ItemsScreen from "./src/screens/items";
 const App = ()=>{
     return(
         <View>
             {/* <SplashScreen/> */}
             {/* <PaymentSuccessScreen/> */}
-            <Address/>
+            {/* <Address/> */}
+            <ItemsScreen/>
         </View>
     )
 }
