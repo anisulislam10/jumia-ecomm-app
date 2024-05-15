@@ -5,13 +5,15 @@ import SplashScreen from "./src/screens/splash.screen";
 import PaymentSuccessScreen from "./src/screens/payment.successfull";
 import Address from './src/screens/address';
 import ItemsScreen from "./src/screens/items";
+import Summary2 from "./src/screens/summary2";
 const App = ()=>{
     return(
         <View>
             {/* <SplashScreen/> */}
             {/* <PaymentSuccessScreen/> */}
             {/* <Address/> */}
-            <ItemsScreen/>
+            {/* <ItemsScreen/> */}
+            <Summary2/>
         </View>
     )
 }
